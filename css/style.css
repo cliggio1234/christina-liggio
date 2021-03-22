@@ -1,15 +1,21 @@
 h1{
   text-align: center;
-  color: #cc99ff;
+  color:#123C69 ;
+  font-family: 'Chango', cursive;
 }
 p{
+  font-size: 18px;
   text-align: center;
+  font-family: 'Chango', cursive;
+  color: #123c69
+  
+}
+body{
+  background-color: #EEE2DC;
 }
 
 /* nav designing */
-nav{
-  width: 100%;
-}
+
 .nav_links{
   list-style: none; 
   display: flex;
@@ -22,15 +28,14 @@ nav{
 }
 
 .nav_item a:hover, a:focus{
-  color: #cc99ff;
+  color: #123C69;
   text-decoration: underline;
   -webkit-text-decoration-style: dashed;
           text-decoration-style: dashed;
 }
 
 nav{
-  background-color: #ddd;
-  padding: 25px 0; 
+  background-color: #EDC7B7;
   text-align: center;
 }
 /* favorites.html*/
@@ -41,54 +46,60 @@ nav{
   row-gap: 20px;
 }
 .workout-one{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid #4B0082	;
+  background-color: #EDC7B7;
+  border: 10px solid #BAB2B5;
   padding: 30px;
 }
 .workout-one h2, h3{
   text-align: center;
+  color: #AC3B61;
 }
 .workout-two{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid #cc99ff;
+  background-color: #EDC7B7;
+  border: 10px solid #BAB2B5 ;
   padding: 30px;
 }
 .workout-two h2, h3{
   text-align: center;
+  color: #AC3B61;
 }
 .workout-three{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid #4B0082	;
+  background-color: #EDC7B7;
+  border: 10px solid #BAB2B5;
   padding: 30px;
 }
 .workout-three h2, h3{
   text-align: center;
+  color: #AC3B61;
 }
 .breakfast{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid #cc99ff;
+  background-color: #EDC7B7;
+  border: 10px solid #BAB2B5;
   padding: 30px;
 }
 .breakfast h2, h3{
   text-align: center;
+  color: #AC3B61;
 }
 
 .lunch{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid #4B0082	;
+  background-color: #EDC7B7;
+  border: 10px solid #BAB2B5	;
   padding: 30px;
 }
 
 .lunch h2, h3{
   text-align: center;
+  color: #AC3B61;
 }
 
 .dinner{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid #cc99ff;
+  background-color: #EDC7B7;
+  border: 10px solid #BAB2B5;
   padding: 30px;
 }
 
 .dinner h2, h3{
   text-align: center;
+  color: #AC3B61;
 }
