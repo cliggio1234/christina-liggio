@@ -34,6 +34,13 @@ body{
           text-decoration-style: dashed;
 }
 
+.current_item a{
+  background-color: #AC3B61;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  color: white;
+
+}
+
 nav{
   background-color: #EDC7B7;
   text-align: center;
