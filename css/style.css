@@ -5,10 +5,12 @@ h1{
   text-align: center;
   color:#123C69 ;
   font-family: 'Chango', cursive;
+  font-size: 24px;
+  text-decoration: underline;
 
 }
 p{
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   font-family: 'Chango', cursive;
   color: #123c69
