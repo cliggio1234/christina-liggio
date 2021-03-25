@@ -58,6 +58,7 @@ nav{
   grid-template-rows: auto;
   grid-template-columns: auto;
   row-gap: 20px;
+  color: #123C69;
 }
 .workout-one{
   background-color: #EDC7B7;
@@ -119,4 +120,10 @@ nav{
 }
 .currentlink{
   color: pink;
+}
+.myadvice{
+  color: #123C69;
+  text-align: start;
+  margin: 20px;
+  
 }
