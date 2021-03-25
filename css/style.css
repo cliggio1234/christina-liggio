@@ -18,7 +18,7 @@ p{
   
 }
 body{
-  background-color: #EEE2DC;
+  background-color:#EDC7B7;
 }
 
 /* nav designing */
@@ -49,8 +49,9 @@ body{
 }
 
 nav{
-  background-color: #EDC7B7;
+  background-color: white;
   text-align: center;
+
 }
 /* favorites.html*/
 .container{
@@ -61,16 +62,17 @@ nav{
   color: #123C69;
 }
 .workout-one{
-  background-color: #EDC7B7;
+  background-color: white;
   border: 10px solid #BAB2B5;
   padding: 30px;
 }
 .workout-one h2, h3{
   text-align: center;
   color: #AC3B61;
+  background-color: white;
 }
 .workout-two{
-  background-color: #EDC7B7;
+  background-color: white;
   border: 10px solid #BAB2B5 ;
   padding: 30px;
 }
@@ -79,7 +81,7 @@ nav{
   color: #AC3B61;
 }
 .workout-three{
-  background-color: #EDC7B7;
+  background-color: white;
   border: 10px solid #BAB2B5;
   padding: 30px;
 }
@@ -88,7 +90,7 @@ nav{
   color: #AC3B61;
 }
 .breakfast{
-  background-color: #EDC7B7;
+  background-color: white;
   border: 10px solid #BAB2B5;
   padding: 30px;
 }
@@ -98,7 +100,7 @@ nav{
 }
 
 .lunch{
-  background-color: #EDC7B7;
+  background-color: white;
   border: 10px solid #BAB2B5	;
   padding: 30px;
 }
@@ -109,7 +111,7 @@ nav{
 }
 
 .dinner{
-  background-color: #EDC7B7;
+  background-color:white;
   border: 10px solid #BAB2B5;
   padding: 30px;
 }
@@ -126,4 +128,7 @@ nav{
   text-align: start;
   margin: 20px;
   
+}
+.skip a{
+  color: black;
 }
