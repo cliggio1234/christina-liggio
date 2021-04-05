@@ -215,3 +215,12 @@ h2{
   margin-bottom: 5px;
   margin-top: 15px;
 }
+.form-for-contact{
+  color: #123C69;
+  text-align: center;
+}
+legend{
+  color: #123C69;
+  text-align: center;
+  font-weight: bold;
+}
