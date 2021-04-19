@@ -261,6 +261,47 @@ legend{
 .fa:hover {
   opacity: 0.6;
 }
+body, html {
+  height: 100%;
+}
+
+.parallax {
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[name=fullname], input[name=email], input[name=message]{
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+button{
+  background-color: #123C69;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  
+}
+#myForm{
+  text-align: left;
+}
 
 
 @media screen and (min-width: 775px){

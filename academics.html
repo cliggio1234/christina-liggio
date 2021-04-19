@@ -29,32 +29,42 @@
       <div class = "myacademics">
         <p> I went to Mount Saint Dominic Academy in New Jersey for high school where I played varsity Lacrosse and Tennis. I was a part of the National Honors Society, Stock Market Club, and was co-found and president of Habitat for Humanity. When I graduated high school, the next stop of my journey was at the Univetsity of Michigan where I am currently a sophomore. I am in the School of Information with a path in User Experience. I have sufficient experience in C++, python, CSS, and HTML. Alongside classes, I am a member of and on the Programming Council for the Alpha Gamma chapter of Zeta Tau Alpha. I am a member in Kid’s Kitche, Habitat for Humanity, and the Women’s Network. College life is busy and stressful. Click here (link to my tips) to see my tips on how to relax your mind and find time for everything as well as your mind. </p><br>
       </div>
-      <form action="" method="POST">
-        <fieldset>
-          <legend>Get In Contact With Me!</legend>
-        <div class="form-for-contact">
-          <label for = "fullname">Your Name</label>
-          <input type="text" id = "fullname" placeholder="Enter Your Name"><br>
-      
-          <label for ="email" >Your Email</label>
-          <input type = "email" id = "email" placeholder = "Enter Your Email"><br>
-      
-          <label for = "message">Leave A Message</label>
-          <textarea placeholder="Enter your message" id = "message"></textarea><br>
-      
-          <input type="checkbox" checked="checked" id = "remember"> 
-          <label for = "remember">Remember me</label><br>
-       
-      
-          <input type="submit" value = "Submit"></input>   
-          
-          
-        </div>
-      </fieldset>
-      </form>
+      <title>Save Web Form Data to Spreadsheets</title>
+	    <script
+		      src="https://code.jquery.com/jquery-3.4.1.js"
+		      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		      crossorigin="anonymous"></script>
+	    <script>
+		      function SubForm (){
+			        $.ajax({
+				          url:"https://api.apispreadsheets.com/data/11092/",
+				          type:"post",
+				          data:$("#myForm").serializeArray(),
+				          success: function(){
+					            alert("Form Data Submitted :)")
+				          },
+				          error: function(){
+					            alert("There was an error :(")
+				          }
+			        });
+		      }
+	    </script>
+      <body>
+	        <form id="myForm">
+		          <label>Enter Your Full Name:</label>
+		          <input name="fullname" />
+		          <br/>
+		          <label>Enter Your Email:</label>
+		          <input name="email" />
+		          <br/>
+		          <label>Leave a Message:</label>
+		          <input name="message" />
+		          <br/>
+	        </form>
+	        <button onclick='SubForm()'>Submit</button>
     </main>
     <footer>
-      <p> CMLifestyle © CML</p>
+      <p> CMLifestyle ©2021 CML</p>
     </footer>
   </body>
 </html>
