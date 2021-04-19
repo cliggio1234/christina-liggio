@@ -238,6 +238,29 @@ legend{
   text-align: center;
   font-weight: bold;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+ .fa-instagram {
+  background: #123C69;
+  color: white;
+}
+.fa-facebook {
+  background: #123C69;
+  color: white;
+}
+.fa-youtube {
+  background: #AC3B61;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.6;
+}
 
 
 @media screen and (min-width: 775px){
@@ -290,23 +313,80 @@ legend{
     margin-left: 75px; 
     font-size: 16px;
   }
+  #logo{
+
+    /*Your code here.*/
+   animation-name: bounceIn;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+ 
+ 
+ }
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+ .fa-instagram {
+  background: #123C69;
+  color: white;
+}
+.fa-facebook {
+  background: #123C69;
+  color: white;
+}
+.fa-youtube {
+  background: #AC3B61;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.6;
 }
 
-
+ @-webkit-keyframes bounceIn{
+   from{ 
+     width: 25px;
+     opacity: 0;
+   }
+   to{
+     width: 220px;
+     opacity: 1;
+   }
+   /*Your code here.*/
+ 
+ }
+ 
+ @keyframes bounceIn{
+   /*Your code here.*/
+   from{
+     width: 25px;
+     opacity: 0;
+   }
+   to{
+     width: 220px;
+     opacity: 1;
+   }
+ } 
+ @media (prefers-reduced-motion:reduce ){
+   #logo{
+     animation: none;
+   }
+ }
+}
 @media screen and (min-width: 1000px){
   .gallery{
     width: 67%;
     row-gap: 50px;
     column-gap: 100px;
-
   }
   #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12{
     width: 250px;
     height: 330px;
     filter: drop-shadow(10px  10px 12px gray);
-
   }
-
   .container{
     display: grid;
     grid-template-rows: auto;
