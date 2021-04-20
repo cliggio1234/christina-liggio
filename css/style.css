@@ -538,10 +538,11 @@ button{
     
     
   }
-  .dinner{
+  .dinner, .lunch{
     margin-bottom: 100px;
   }
-  .lunch{
+  
+  #image10, #image11, #image12 {
     margin-bottom: 100px;
   }
   
