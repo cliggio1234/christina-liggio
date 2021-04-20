@@ -323,7 +323,7 @@ button{
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:active .flip-card:hover .flip-card-inner {
+.flip-card:active .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -379,9 +379,9 @@ button{
     font-size: 20px;
   }
   .gallery{
-    width: 75%;
-    row-gap: 100px;
-    column-gap: 100px;
+    width:90%;
+    row-gap: 25px;
+    column-gap: 25px;
   }
   #image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9, #image10, #image11, #image12{
     width: 200px;
@@ -390,6 +390,15 @@ button{
 
 
   }
+  .flip-card  {
+    background-color: transparent;
+    width: 200px;
+    height: 260px;
+    border: 1px solid #f1f1f1;
+    
+    
+  }
+  
   .myacademics{
     margin-right: 75px;
     margin-left: 75px; 
@@ -461,6 +470,11 @@ button{
    #logo{
      animation: none;
    }
+   .flip-card:active .flip-card-inner {
+    transform: None;
+  }
+
+
  }
 }
 @media screen and (min-width: 1000px){
@@ -515,6 +529,14 @@ button{
     bottom: 0;
     width: 100%;
 
+  }
+  .flip-card  {
+    background-color: transparent;
+    width: 250px;
+    height: 330px;
+    border: 1px solid #f1f1f1;
+    
+    
   }
   
   
