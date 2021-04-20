@@ -413,7 +413,7 @@ button{
 
     /*Your code here.*/
    animation-name: bounceIn;
-   animation-duration: 10s;
+   animation-duration: 8s;
    animation-iteration-count: 1;
  
  
@@ -448,7 +448,7 @@ button{
      opacity: 0;
    }
    to{
-     width: 220px;
+     width: 150px;
      opacity: 1;
    }
    /*Your code here.*/
@@ -462,7 +462,7 @@ button{
      opacity: 0;
    }
    to{
-     width: 220px;
+     width: 150px;
      opacity: 1;
    }
  } 
@@ -538,11 +538,7 @@ button{
     
     
   }
-  .dinner, .lunch{
-    margin-bottom: 100px;
-  }
-  
-  #image10, #image11, #image12 {
+  .dinner, .lunch, .myadvice{
     margin-bottom: 100px;
   }
   
